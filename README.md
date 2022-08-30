@@ -1,10 +1,4 @@
-# Cycle6
-## Description
-- Course: CSC842 Security Tool Development
-- Developer: Jacob Williams
-- Language: Bash
-- Scope: Infrastrucure Deployment
-
+# Automatic Cloudflare Redirector Deployment
 
 ## Description
 Attackers often have to find inovative ways in order to blend in with normal traffic on a target network.  One of the best ways is to take advantage of content delivery networks (CDNs) that allow users to hide behind their infrastructure.  A few months ago I had read about the ability to utilize one of Cloudflare's newer features: [Workers](https://workers.cloudflare.com/) for more malicious purposes: C2 redirectors.  With just a small bit of JavaScript, an attacker could have HTTP/S traffic masqueraded behind Cloudflare's SSL cerificate and DOMAIN NAME, and IP range.  
